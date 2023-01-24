@@ -14,7 +14,6 @@ static void sys_task(void *arg)
     
   }
   vTaskDelete(NULL);
-
 }
 
 void sys_init()
