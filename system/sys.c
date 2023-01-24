@@ -2,9 +2,9 @@
 
 */
 #include "sys.h"
-
-
 static const char *TAG = "system";
+
+
 TaskHandle_t sys_tsk;
 static void sys_task(void *arg)
 {
